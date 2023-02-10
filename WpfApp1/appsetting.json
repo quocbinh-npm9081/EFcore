@@ -1,0 +1,5 @@
+{
+  "ConnectionString": {
+    "connec": "Server=DESKTOP-JNTN2DM\\SQLEXPRESS; Database=firstproject; Trusted_Connection=True"
+  }
+}
