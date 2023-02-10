@@ -1,5 +1,5 @@
 {
-  "ConnectionString": {
-    "connec": "Server=DESKTOP-JNTN2DM\\SQLEXPRESS; Database=firstproject; Trusted_Connection=True"
+  "ConnectionStrings": {
+    "conec": "Server=DESKTOP-JNTN2DM\\SQLEXPRESS; Database=joingame; Trusted_Connection=True"
   }
 }

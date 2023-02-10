@@ -17,9 +17,9 @@ namespace WpfApp1.Data.EFCore
         public AddDbContext CreateDbContext(string[] args) {
             IConfiguration configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsetting").Build();
+                .AddJsonFile("appsetting.json").Build();
 
-            var connectionString = configuration.GetConnectionString("connec");
+            var connectionString = configuration.GetConnectionString("conec");
             var optionBuilder = new DbContextOptionsBuilder<AddDbContext>();
             optionBuilder.UseSqlServer(connectionString);
             return new AddDbContext(optionBuilder.Options);

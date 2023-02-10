@@ -10,6 +10,7 @@ namespace WpfApp1.Data.Enities
     {
         public int Id { get; set; } 
         public string Name { get; set; }    
-        public string Email { get; set; }       
+        public string Email { get; set; }
+        public List<UserRole> UserRoles { get; set; }
     }
 }
